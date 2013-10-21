@@ -7,6 +7,6 @@ To install:
   ex. 
   1.echo bb_code( "[b]Hello[/b]" )
   2. var hello = "[b]Hello[/b]";
-  	echo bbcode( hello );
+  	echo $this->bbcode->bbcode( hello );
 
   Output: <b>Hello</b>
